@@ -1,9 +1,9 @@
 from tda import auth, client
 import json
 
-token_path = '/path/to/token.pickle'
-api_key = 'YOUR_API_KEY@AMER.OAUTHAP'
-redirect_uri = 'https://your.redirecturi.com'
+token_path = 'C:\Users\GREG\VS_CODE\tda-api\tda-api'
+api_key = 'QCGZOCCCTTOAXUV1XNMNJW5FJLINKCM8@AMER.OAUTHAP'
+redirect_uri = 'https://localhost'
 try:
     c = auth.client_from_token_file(token_path, api_key)
 except FileNotFoundError:
