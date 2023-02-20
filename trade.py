@@ -1,14 +1,16 @@
-from tda import auth, client
 import json
+from tda import client, auth
 
-token_path = 'C:\Users\GREG\VS_CODE\tda-api\tda-api'
+
+#token_path = 'C:\\Users\\GREG\\VS_Projects\\tda-api\\tda-api\\'
+token_path = 'token'
 api_key = 'QCGZOCCCTTOAXUV1XNMNJW5FJLINKCM8@AMER.OAUTHAP'
 redirect_uri = 'https://localhost'
 try:
     c = auth.client_from_token_file(token_path, api_key)
 except FileNotFoundError:
     from selenium import webdriver
-    with webdriver.Chrome(executible_path='C:\Users\GREG\VS_CODE\tda-api\tda-api\chromedriver') as driver:
+    with webdriver.Chrome(executible_path='C:\\Users\\tayl054\\VS_Projects\\tda-api\\chromedriver') as driver:
         c = auth.client_from_login_flow(
             driver, api_key, redirect_uri, token_path)
 
