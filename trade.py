@@ -9,7 +9,7 @@ try:
     c = auth.client_from_token_file(token_path, api_key)
 except FileNotFoundError:
     from selenium import webdriver
-    with webdriver.Chrome(executible_path="C:\\Users\\tayl054\\VS_Projects\\tda-api\\chromedriver") as driver:
+    with webdriver.Chrome(executible_path='//workspaces/tda-api/chromedriver') as driver:
         c = auth.client_from_login_flow(
             driver, api_key, redirect_uri, token_path)
 
