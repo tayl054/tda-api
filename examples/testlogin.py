@@ -1,7 +1,8 @@
 import json
 from tda import auth, client
 
-token_path = '/path/to/token.json'
+account_id = 686232781
+token_path = 'token'
 api_key = 'QCGZOCCCTTOAXUV1XNMNJW5FJLINKCM8@AMER.OAUTHAP'
 redirect_uri = 'https://localhost'
 try:
