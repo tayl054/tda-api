@@ -152,7 +152,9 @@ Wait, so I'm locked out of the TDAmeritrade API?
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
 Sadly, it would appear so. We still recommend `joining our discord server 
-<https://discord.gg/BEr6y6Xqyv>`__ to discuss trading with like-minded people 
+<
+  
+>`__ to discuss trading with like-minded people 
 and learn about temporary alternatives. Once a replacement is made available, 
 members of that server will be the first to learn about it.
 
